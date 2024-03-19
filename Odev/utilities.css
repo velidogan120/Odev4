@@ -1,0 +1,160 @@
+html{
+    font-size: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 15px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 1.6;
+}
+.title{
+    color: #ff5714;
+}
+.subTitle{
+    color: black;
+    margin: 10px 0 25px 0;
+}
+.paragraph{
+    opacity: .7;
+    font-size: 1.6rem;
+}
+.btn {
+    padding: 10px 15px;
+    margin: 5rem 0px 2rem 0 !important;
+    border-radius: 5px;
+    border:2px solid transparent;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.btn-block{
+    display: block;
+    width: 100%;
+}
+.btn i{
+    margin-left: 10px;
+}
+.btn-secondary{
+    background-color: #ff5714 ;
+    color: #fff;
+}
+.btn-outline-secondary{
+    background-color: rgba(255, 87, 20,.2) ;
+    color: #ff5714;
+}
+.btn-outline-secondary:hover{
+    background-color: #ff5714;
+    opacity: 1;
+    color: #fff;
+}
+.btn-underline-secondary{
+    background-color: #fff;
+    padding-left: 0;
+    padding-right: 0; 
+    border-radius: 0;
+    font-size: 1.6rem;
+}
+.btn-underline-secondary:hover{
+    color: #ff5714;
+    border-bottom: 2px solid #ff5714;   
+}
+.section-content{
+    width: 50%;
+    margin: 5rem auto;
+}
+.text-center{
+    text-align: center;
+}
+.display-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.align-items-center{
+    align-items: center;
+}
+.col-1{
+    flex: 100%;
+}
+.col-2{
+    flex: 1;
+}
+.col-3{
+    flex: 30%;
+}
+.col-4{
+    flex: 20%;
+}
+.col-6{
+    flex: 16%;
+}
+.col-7{
+    flex: 2;
+}
+.card{
+    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    margin: 15px 15px;
+    border: 1px solid black;
+}
+.card-body{
+    padding: 25px;
+}
+.card:hover{
+    box-shadow: 0 0 15px 15px rgba(0, 0, 0, .2);
+}
+.card a{
+    color: black;
+}
+.card .subTitle{
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+#contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+input{
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid #eee;
+}
+#contact-form textarea{
+    height: 200px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 15px;
+}
